@@ -1,0 +1,54 @@
+@import url("reset.css");
+@import url("../fonts/roboto.css");
+
+/* USER BOOTSTRAP CLASSES */
+
+.border-2 {
+    border-width: 2px !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Roboto;
+    box-sizing: border-box;
+    min-width: 400px;
+    font-size: 1.2rem;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.team-name {
+    font-size: 1.7rem;
+    line-height: 120%;
+}
+
+.team-role {
+    letter-spacing: -0.05rem;
+    font-size: 1.2rem;
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: 0.2s;
+}
+
+.card-img-overlay:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-list-item {
+    cursor: pointer;
+}
+
+#scroll-top {
+    position: fixed; 
+    bottom: 15%;
+    right: 5%;
+    cursor:pointer; 
+    display:none;
+}
